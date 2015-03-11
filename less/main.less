@@ -49,6 +49,8 @@ body {
 @blue: #0b2654;
 @white: #fff;
 @dark-red: #810e1f;
+@dark-grey: #333333;
+@black: #000;
 
 .red-color {color: @red;}
 .blue-color {color: @blue;}
@@ -72,6 +74,10 @@ a {
   .transition(ease-in-out .3s);
 }
 
+.clearfix {
+  width: 100%;
+}
+
 .c-hr {
   border: 0;
   color: #657083;
@@ -80,7 +86,7 @@ a {
 }
 
 .top-panel {
-  border: 1px solid #000000;
+  border: 1px solid @black;
   background: @red;
   height: 90px;
   width: 100%;
@@ -129,7 +135,39 @@ a {
         opacity: 0.7;
       }
     }
+  .menu-active {
+    background: @blue;
+    color: @white;
+    padding: 12px;
+    margin-top: -10px;
+    a {
+      color: @white;
+    }
+  }
   .fb-button {
+  }
+}
+
+.secondary-menu {
+  background: @black;
+  font: bold 16px/16px HeliosCondC;
+  text-transform: uppercase;
+  margin-left: -65px;
+  ul{
+    list-style-type: none;
+    padding-top: 10px;
+  }
+  li {
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 5px;
+  }
+  a {
+    color: @white;
+    &:hover {
+      opacity: 0.7;
+      text-decoration: none;
+    }
   }
 }
 
@@ -159,7 +197,8 @@ a {
       background: url("../images/q.png") no-repeat right;
       background-position-x: 260px;
       &:hover {
-        opacity: 0.7;
+        background: @white;
+        color: @blue;
         text-decoration: none;
       }
     }
@@ -290,4 +329,61 @@ a {
     text-align: right;
     padding-top: 20px;
   }
+}
+
+/* Our Bud */
+.red-body {
+  height: 100%;
+  width: 100%;
+  background: @red;
+  padding: 30px 0;
+  margin-bottom: 30px;
+
+  .bud-story {
+    margin-bottom: 30px;
+    .bud-story-title {
+      background: @blue;
+      text-transform: uppercase;
+      font: bold 28px/28px HeliosCondC;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .bud-story-text {
+      background: @dark-grey;
+      font: normal 16px/16px HeliosCondC;
+      padding: 15px;
+    }
+  }
+  .bud-story-more {
+    text-transform: uppercase;
+    font: normal 19px/19px HeliosCondC;
+    a {
+      color: @blue;
+    }
+  }
+}
+.our-bud {
+  .our-bud-heading {
+    font: bold 30px/30px HeliosCondC;
+    text-transform: uppercase;
+    background: @blue;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .our-bud-specs {
+    background: @red;
+    text-align: center;
+    padding: 15px 0;
+    font: normal 22px/22px HeliosCondC;
+    span {
+      font: normal 82px/82px HeliosCondC;
+    }
+  }
+}
+
+.our-bud-about {
+  text-transform: uppercase;
+  font: bold 18px/20px HeliosCondC;
+  color: #636363;
+  margin-top: 30px;
 }
