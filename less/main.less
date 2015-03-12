@@ -94,7 +94,7 @@ a {
     margin-top: 10px;
   }
   .auth {
-    font: normal 18px/18px HeliosCondCBold;
+    font: normal 18px/16px HeliosCondCBold;
     margin-top: 25px;
     text-transform: uppercase;
     ul {
@@ -102,7 +102,9 @@ a {
     }
     li {
       display: inline-block;
-      padding-right: 10px;
+      padding-right: 20px;
+      padding-left: 20px;
+      border-right: solid @white
     }
     a {
       text-decoration: none;
@@ -290,24 +292,41 @@ a {
       bottom: 10px;
     }
   }
-  .read-more-button {
-    position: relative;
-    .fb-more {
-      bottom: -25px;
-      position: absolute;
-      width: 263px;
-      height: 52px;
-      display: inline-block;
-      background: @blue;
-      text-align: center;
-      color: @white;
-      font: normal 22px/52px HeliosCondCBold;
-      text-transform: uppercase;
-      text-decoration: none;
-      &:hover {
-        opacity: 0.7;
-      }
+}
+
+.read-more-button {
+  position: relative;
+  .fb-more {
+    bottom: -25px;
+    position: absolute;
+    width: 263px;
+    height: 52px;
+    display: inline-block;
+    background: @blue;
+    text-align: center;
+    color: @white;
+    font: normal 22px/52px HeliosCondCBold;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.7;
     }
+  }
+}
+
+.read-more {
+  width: 263px;
+  height: 52px;
+  display: inline-block;
+  background: @blue;
+  text-align: center;
+  color: @white;
+  font: normal 22px/52px HeliosCondCBold;
+  text-transform: uppercase;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.7;
+    text-decoration: none;
   }
 }
 
@@ -317,6 +336,7 @@ a {
     font: normal 42px/42px HeliosCondCBold;
     color: @blue;
     padding: 20px 0;
+    margin-left: 15px;
   }
 }
 
@@ -336,7 +356,8 @@ a {
   height: 100%;
   width: 100%;
   background: @red;
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
 
   .bud-story {
@@ -386,4 +407,37 @@ a {
   font: bold 18px/20px HeliosCondC;
   color: #636363;
   margin-top: 30px;
+}
+
+
+
+.wishwall {
+  margin-bottom: 25px;
+  img {
+    margin-left: -15px;
+    &:hover {
+      background: url("../images/plus.png") no-repeat;
+      position: relative;
+      z-index: 200;
+    }
+  }
+  .wish {
+    position: relative;
+    z-index: 1;
+
+  }
+  p {
+    font: bold 22px/22px HeliosCondC;
+    text-transform: uppercase;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    width: 210px;
+  }
+  h1 {
+    font: normal 26px/26px HeliosCondC;
+    text-transform: uppercase;
+    margin-top: -15px;
+    margin-bottom: 15px;
+  }
 }
