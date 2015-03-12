@@ -418,7 +418,7 @@ a {
     &:hover {
       background: url("../images/plus.png") no-repeat;
       position: relative;
-      z-index: 200;
+      cursor: pointer;
     }
   }
   .wish {
@@ -439,5 +439,63 @@ a {
     text-transform: uppercase;
     margin-top: -15px;
     margin-bottom: 15px;
+  }
+}
+
+.big-fb-share {
+  margin-left: 75px;
+  .fb-share {
+    display: inline-block;
+    border: 1px solid #dd8f9b;
+    background: #860f21;
+    font: normal 24px/26px HeliosCondC;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    letter-spacing: 2px;
+    color: @white;
+    background: url("../images/fb_share.png") no-repeat top right;
+    background-position-x: 221px;
+    background-position-y: 4px;
+    &:hover {
+      text-decoration: none;
+      color: @white;
+      background: #860f21;
+    }
+  }
+}
+
+.edit-dreams {
+  width: 263px;
+  height: 52px;
+  display: inline-block;
+  background: @blue;
+  text-align: center;
+  color: @white;
+  font: normal 22px/52px HeliosCondC;
+  text-transform: uppercase;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+}
+
+
+.save-dreams {
+  width: 263px;
+  height: 52px;
+  display: inline-block;
+  background: @black;
+  text-align: center;
+  color: @white;
+  font: normal 22px/52px HeliosCondC;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  &:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: @white;
   }
 }

@@ -2,35 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b9ab1e-b1ef-4827-af2e-86c5ad9f8f08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/2_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_14_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_14_16_12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/WISHWALL_1170_01+02_45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mood_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wishwall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fb_share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wishwall_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_about.html" afterPath="$PROJECT_DIR$/ourbud_about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_history.html" afterPath="$PROJECT_DIR$/ourbud_history.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_process.html" afterPath="$PROJECT_DIR$/ourbud_process.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wishwall.html" afterPath="$PROJECT_DIR$/wishwall.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bud.ua.iws" />
@@ -61,28 +41,28 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.6666667" vertical-offset="3204" max-vertical-offset="4212">
-                  <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="188" selection-end-column="10" />
+                <state vertical-scroll-proportion="-38.0" vertical-offset="108" max-vertical-offset="4212">
+                  <caret line="63" column="42" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="wishwall.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="wishwall.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wishwall.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.28125" vertical-offset="1026" max-vertical-offset="3708">
-                  <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+                <state vertical-scroll-proportion="-8.666667" vertical-offset="2970" max-vertical-offset="3708">
+                  <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="180" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ourbud_about.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ourbud_about.html">
+          <file leaf-file-name="wishwall_2.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wishwall_2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.3333335" vertical-offset="1296" max-vertical-offset="3582">
-                  <caret line="80" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.6943973" vertical-offset="2021" max-vertical-offset="2880">
+                  <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -95,8 +75,8 @@
           <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4499151" vertical-offset="7331" max-vertical-offset="8118">
-                  <caret line="419" column="0" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.11375212" vertical-offset="8519" max-vertical-offset="9180">
+                  <caret line="474" column="17" selection-start-line="474" selection-start-column="17" selection-end-line="474" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -115,14 +95,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/index3.html" />
         <option value="$PROJECT_DIR$/ourbud.html" />
-        <option value="$PROJECT_DIR$/ourbud_history.html" />
-        <option value="$PROJECT_DIR$/ourbud_process.html" />
-        <option value="$PROJECT_DIR$/ourbud_about.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/../unilad/style.css" />
         <option value="$PROJECT_DIR$/../unilad/home.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/wishwall.html" />
+        <option value="$PROJECT_DIR$/ourbud_about.html" />
+        <option value="$PROJECT_DIR$/ourbud_history.html" />
+        <option value="$PROJECT_DIR$/ourbud_process.html" />
+        <option value="$PROJECT_DIR$/wishwall_2.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
       </list>
     </option>
@@ -421,7 +402,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426111371769</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="wishwall page 1">
+      <created>1426181921683</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1426181921683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -431,6 +418,7 @@
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33021808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12233752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -440,7 +428,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -468,7 +455,8 @@
     </option>
     <MESSAGE value="gitignore and heroku index.php file" />
     <MESSAGE value="our bud pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="our bud pages" />
+    <MESSAGE value="wishwall page 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="wishwall page 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -662,20 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ourbud_process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="1350" max-vertical-offset="2322">
-          <caret line="87" column="435" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="435" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ourbud_history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58064514" vertical-offset="648" max-vertical-offset="2322">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="57" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../unilad/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62032086" vertical-offset="30" max-vertical-offset="16074">
@@ -690,14 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667" vertical-offset="3204" max-vertical-offset="4212">
-          <caret line="182" column="0" selection-start-line="182" selection-start-column="0" selection-end-line="188" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4383117" vertical-offset="0" max-vertical-offset="616">
@@ -708,26 +674,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ourbud_process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333" vertical-offset="450" max-vertical-offset="2376">
+          <caret line="39" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="114" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourbud_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36332768" vertical-offset="470" max-vertical-offset="2376">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ourbud_about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335" vertical-offset="1296" max-vertical-offset="3582">
-          <caret line="80" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.61120546" vertical-offset="162" max-vertical-offset="3582">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.0" vertical-offset="108" max-vertical-offset="4212">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wishwall.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28125" vertical-offset="1026" max-vertical-offset="3708">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="2970" max-vertical-offset="3708">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="180" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wishwall_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6943973" vertical-offset="2021" max-vertical-offset="2880">
+          <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4499151" vertical-offset="7331" max-vertical-offset="8118">
-          <caret line="419" column="0" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.11375212" vertical-offset="8519" max-vertical-offset="9180">
+          <caret line="474" column="17" selection-start-line="474" selection-start-column="17" selection-end-line="474" selection-end-column="17" />
           <folding />
         </state>
       </provider>
