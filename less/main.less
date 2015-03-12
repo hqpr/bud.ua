@@ -51,6 +51,7 @@ body {
 @dark-red: #810e1f;
 @dark-grey: #333333;
 @black: #000;
+@light-grey: #e1e1e1;
 
 .red-color {color: @red;}
 .blue-color {color: @blue;}
@@ -179,6 +180,12 @@ a {
     font: normal 42px/42px HeliosCondCBold;
     text-transform: uppercase;
     padding: 20px 0;
+  }
+  .gt-month {
+    color: #707070;
+    font: normal 22px/52px HeliosCondC;
+    text-transform: uppercase;
+    padding-top: 40px;
   }
 }
 
@@ -414,7 +421,7 @@ a {
 .wishwall {
   margin-bottom: 25px;
   img {
-    margin-left: -15px;
+    width: 100%;
     &:hover {
       background: url("../images/plus.png") no-repeat;
       position: relative;
@@ -433,17 +440,18 @@ a {
     position: absolute;
     top: 15px;
     width: 210px;
+    padding-left: 10px;
   }
   h1 {
     font: normal 26px/26px HeliosCondC;
     text-transform: uppercase;
     margin-top: -15px;
     margin-bottom: 15px;
+    margin-left: 15px;
   }
 }
 
 .big-fb-share {
-  margin-left: 75px;
   .fb-share {
     display: inline-block;
     border: 1px solid #dd8f9b;
@@ -466,7 +474,7 @@ a {
 }
 
 .edit-dreams {
-  width: 263px;
+  padding: 0 25px;
   height: 52px;
   display: inline-block;
   background: @blue;
@@ -483,7 +491,7 @@ a {
 
 
 .save-dreams {
-  width: 263px;
+  padding: 0 70px;
   height: 52px;
   display: inline-block;
   background: @black;
@@ -499,3 +507,93 @@ a {
     color: @white;
   }
 }
+
+.great-times {
+  margin-bottom: 30px;
+  img {
+    width: 100%;
+    height: 300px;
+  }
+  .gt-header {
+    background: @light-grey;
+    color: #555555;
+    font: normal 16px/16px HeliosCondC;
+    height: 300px;
+    margin-left: -15px;
+    h1 {
+      color: #c3002f;
+      font: normal 26px/26px HeliosCondC;
+      text-transform: uppercase;
+    }
+  }
+
+}
+
+.great-times-blocks {
+  margin-bottom: 30px;
+  img {
+    width: 100%;
+  }
+  .gt-block {
+    display: block;
+    background: @light-grey;
+    color: #555555;
+    font: normal 15px/15px HeliosCondC;
+    padding: 10px;
+    h1 {
+      color: #c3002f;
+      font: normal 22px/22px HeliosCondC;
+      text-transform: uppercase;
+    }
+    &:hover, &:hover h1 {
+      text-decoration: none;
+      background: @red;
+      color: @white;
+    }
+  }
+  .gt-up {
+    background: url("../images/gt_up.png") no-repeat top center;
+    height: 37px;
+    width: 43px;
+    position: absolute;
+    left: 129px;
+    top: 179px;
+  }
+  .gt-down {
+    background: url("../images/gt_down.png") no-repeat top center;
+    height: 37px;
+    width: 43px;
+    position: absolute;
+    left: 129px;
+    bottom: 179px;
+  }
+}
+
+.gt-pagination {
+  background: @light-grey;
+  height: 30px;
+  margin-bottom: 30px;
+  .gt-pagination-year {
+    font: normal 18px/32px HeliosCondC;
+    color: @red;
+    padding-left: 15px;
+    float: left;
+  }
+  .gt-pagination-month{
+    font: normal 14px/28px HeliosCondC;
+    float: left;
+    background: @red;
+    text-transform: uppercase;
+    margin-left: 15px;
+    padding: 1px 15px;
+    letter-spacing: 1px;
+  }
+  .gt-pagination-old {
+    float: right;
+    font: normal 18px/32px HeliosCondC;
+    color: @red;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
