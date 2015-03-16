@@ -1,15 +1,15 @@
 /* Fonts */
 
 @font-face {
-    font-family: 'helioscondcregular';
-    src: url('../fonts/helioscondc-webfont.eot');
-    src: url('../fonts/helioscondc-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/helioscondc-webfont.woff2') format('woff2'),
-         url('../fonts/helioscondc-webfont.woff') format('woff'),
-         url('../fonts/helioscondc-webfont.ttf') format('truetype'),
-         url('../fonts/helioscondc-webfont.svg#helioscondcregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'helioscondcregular';
+  src: url('../fonts/helioscondc-webfont.eot');
+  src: url('../fonts/helioscondc-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/helioscondc-webfont.woff2') format('woff2'),
+  url('../fonts/helioscondc-webfont.woff') format('woff'),
+  url('../fonts/helioscondc-webfont.ttf') format('truetype'),
+  url('../fonts/helioscondc-webfont.svg#helioscondcregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 
 }
 
@@ -17,10 +17,10 @@
   font-family: 'HeliosCondC';
   src: url('../fonts/HeliosCondC.eot');
   src: url('../fonts/HeliosCondC.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/HeliosCondC.woff2') format('woff2'),
-       url('../fonts/HeliosCondC.woff') format('woff'),
-       url('../fonts/HeliosCondC.ttf') format('truetype'),
-       url('../fonts/HeliosCondC.svg#HeliosCondC') format('svg');
+  url('../fonts/HeliosCondC.woff2') format('woff2'),
+  url('../fonts/HeliosCondC.woff') format('woff'),
+  url('../fonts/HeliosCondC.ttf') format('truetype'),
+  url('../fonts/HeliosCondC.svg#HeliosCondC') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -29,10 +29,10 @@
   font-family: 'HeliosCondCBold';
   src: url('../fonts/HeliosCondC-Bold.eot');
   src: url('../fonts/HeliosCondC-Bold.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/HeliosCondC-Bold.woff2') format('woff2'),
-       url('../fonts/HeliosCondC-Bold.woff') format('woff'),
-       url('../fonts/HeliosCondC-Bold.ttf') format('truetype'),
-       url('../fonts/HeliosCondC-Bold.svg#HeliosCondCBold') format('svg');
+  url('../fonts/HeliosCondC-Bold.woff2') format('woff2'),
+  url('../fonts/HeliosCondC-Bold.woff') format('woff'),
+  url('../fonts/HeliosCondC-Bold.ttf') format('truetype'),
+  url('../fonts/HeliosCondC-Bold.svg#HeliosCondCBold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -131,20 +131,20 @@ a {
   font: normal 20px/26px HeliosCondCBold;
   text-transform: uppercase;
   border-bottom: 1px solid #ababab;
-    ul {
-      list-style-type: none;
+  ul {
+    list-style-type: none;
+  }
+  li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  a {
+    text-decoration: none;
+    color: @red;
+    &:hover {
+      opacity: 0.7;
     }
-    li {
-      display: inline-block;
-      padding-right: 10px;
-    }
-    a {
-      text-decoration: none;
-      color: @red;
-      &:hover {
-        opacity: 0.7;
-      }
-    }
+  }
   .menu-active {
     background: @blue;
     color: @white;
@@ -155,8 +155,8 @@ a {
     }
   }
   .fb-button {
-    position: relative;
-    right: -100px;
+    //    position: relative;
+    //    right: -100px;
   }
 }
 
@@ -218,7 +218,7 @@ a {
       border: 1px solid @white;
       padding: 20px 0 0 40px;
       border-top: none;
-      background: url("../images/q.png") no-repeat right;
+      background: url("../images/q.png") no-repeat right 20px;
       background-position-x: 260px;
       &:hover {
         background: @white;
@@ -243,6 +243,8 @@ a {
         .lifehack {
           font: normal 27px/27px HeliosCondC;
           text-transform: uppercase;
+          margin-left: 30px;
+          margin-top: 50px;
         }
       }
     }
@@ -251,9 +253,10 @@ a {
 
 .fb-stream {
   background: @red;
-  height: 960px;
+  //  height: 960px;
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-bottom: 30px;
   h1 {
     font: normal 42px/42px HeliosCondCBold;
     color: @white;
@@ -320,6 +323,7 @@ a {
   .fb-message-pic {
     img {
       width: 100%;
+      height: 100%;
     }
     margin-bottom: 30px;
     position: relative;
@@ -338,9 +342,10 @@ a {
 .read-more-button {
   position: relative;
   .fb-more {
+    float: right;
     bottom: -25px;
-    position: absolute;
-    width: 263px;
+    //    position: absolute;
+    min-width: 263px;
     height: 52px;
     display: inline-block;
     background: @blue;
@@ -349,6 +354,10 @@ a {
     font: normal 22px/52px HeliosCondCBold;
     text-transform: uppercase;
     text-decoration: none;
+    &:hover {
+      opacity: 0.7;
+      text-decoration: none;
+    }
   }
 }
 
@@ -371,10 +380,14 @@ a {
 }
 
 .video-block {
-  img {
-    width: 100%;
+  .video-block-item {
+    margin-bottom: 60px;
+    img {
+      width: 100%;
+    }
   }
-  margin-bottom: 60px;
+
+
   h1 {
     font: normal 42px/42px HeliosCondCBold;
     color: @blue;
@@ -505,7 +518,7 @@ a {
   }
   .wish-done {
     opacity:0.7;
-//    background: url("../images/wish_done.png") no-repeat;
+    //    background: url("../images/wish_done.png") no-repeat;
   }
 
   p {
@@ -671,14 +684,51 @@ a {
     padding-right: 15px;
   }
 }
+.sm-mood {
+  background: url("../images/sm_mood.png") no-repeat;
+  width: 100%;
+  height: 451px;
+  font: normal 37px/37px HeliosCondCBold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 5px;
 
-/* Small devices (tablets, 468px and up) */
-@media (max-width: 468px) {
-  .xs-menu {
-    margin-top: 30px;
+  .rect {
+    position: absolute;
+    bottom: 0;
+    margin-left: -5px;
+    padding-right: 15px;
+    h1 {
+      position: absolute;
+      margin-top: 45px;
+      font: normal 23px/23px HeliosCondCBold;
+      bottom: 10%;
+      left: 10%;
+    }
   }
-  .xs-menu-items {
-    background: @black;
+}
+.xs-menu {
+  margin-top: 30px;
+}
+.xs-menu-items {
+  background: @black;
+  a {
+    width: 100%;
+    display: block;
+    height: 55px;
+    font: bold 24px/56px HeliosCondC;
+    color: @white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid @white;
+    &:hover {
+      text-decoration: none;
+      background: @blue;
+    }
+  }
+}
+  .xs-menu-auth {
+    background: #252525;
     a {
       width: 100%;
       display: block;
@@ -693,24 +743,6 @@ a {
         background: @blue;
       }
     }
-  }
-  .xs-menu-auth {
-    background: #252525;
-      a {
-      width: 100%;
-      display: block;
-      height: 55px;
-      font: bold 24px/56px HeliosCondC;
-      color: @white;
-      padding-left: 10px;
-      text-transform: uppercase;
-      border-bottom: 1px solid @white;
-      &:hover {
-        text-decoration: none;
-        background: @blue;
-      }
-
-    }
     .fb {
       background: url("../images/fb_stream_button.png") no-repeat left;
       background-position-x: 10px;
@@ -721,10 +753,26 @@ a {
         background: url("../images/fb_stream_button.png") no-repeat left;
       }
     }
-
+    .sm-mood .rect h1 {
+      font-size: 23px;
+    }
   }
+
+
+
+
+
+
+/* XS */
+/* Small devices (tablets, 468px and up) */
+@media (max-width: 468px) {
   .our-bud-blocks {
     margin-bottom: 30px;
+  }
+  .page-title {
+    h1 {
+      font: bold 30px/30px HeliosCondC;
+    }
   }
   .page-title {
     h1 {
@@ -735,19 +783,69 @@ a {
 }
 
 
-
+/* SM */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) {
+  .page-title {
+    h1 {
+      font-size: 30px;
+    }
+  }
   .secondary-menu {
     margin-left: 15px;
     font: bold 24px/24px HeliosCondC;
   }
+
+  .fb-stream {
+    h1 {
+      font-size: 30px;
+    }
+  }
+  .top-panel .auth {
+    margin-top: 35px;
+  }
 }
 
+
+
+/* MD */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px) {
+
+  .fb-stream {
+    h1 {
+      font-size: 36px;
+    }
+    .fb-message {
+      padding: 5px;
+    }
+    .small-block {
+      height: 228px;
+    }
+  }
+  .page-title {
+    h1 {
+      font-size: 36px;
+    }
+  }
+  .mood .mood-picture .mood1 .mood-text .lifehack {
+    margin-top: -0px;
+  }
+  .read-more-button .fb-more {
+    max-width: 213px;
+  }
+
+  .mood {
+    .mood-menu {
+      a {
+        font-size: 21px;
+      }
+    }
+  }
+
 }
 
+/* LG */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
