@@ -3,15 +3,8 @@
  */
 
 $(document).ready(function(){
-
-    $('#bud-party').on('click', function(e){
-        e.preventDefault();
-        $('.mood2').slideDown('fast');
-    });
-
-    $('#mood-strongly').on('click', function(e){
-        e.preventDefault();
-        $('.mood1').slideDown('fast');
+    $('.wish').on('click', function(){
+       $(this).addClass('wish-done');
     });
 });
 
