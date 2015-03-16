@@ -262,7 +262,6 @@ a {
     padding: 20px 0;
   }
   .fb-message {
-    max-height: 262px;
     overflow: hidden;
     background: @dark-red;
     min-height: 100px;
@@ -282,10 +281,11 @@ a {
         font-size: 16px;
         font-weight: bold;
         float: left;
-        line-height: 35px;
+        padding-top: 10px;
         a {
           text-decoration: none;
           color: @white;
+          position: absolute;
         }
       }
     }
@@ -304,6 +304,15 @@ a {
       background: url("../images/fb_stream_button.png") no-repeat right;
       a {
         color: @white;
+      }
+    }
+  }
+  .small-block {
+    height: 264px;
+    .message_header {
+      .fb-page {
+        padding-top: 0;
+        line-height: 20px;
       }
     }
   }
@@ -453,18 +462,28 @@ a {
   margin-bottom: 25px;
   img {
     width: 100%;
-//    padding-top: 10px;
     &:hover {
-      background: url("../images/plus.png") no-repeat;
-      position: relative;
       cursor: pointer;
     }
   }
   .wish {
+    .wish-plus {
+      display: none;
+    }
     position: relative;
     z-index: 1;
-
+    &:hover {
+      .wish-plus {
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        display: block;
+        bottom: 0;
+        right: 15px;
+      }
+    }
   }
+
   p {
     font: bold 22px/22px HeliosCondC;
     text-transform: uppercase;
