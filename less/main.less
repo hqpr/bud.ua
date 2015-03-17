@@ -155,8 +155,8 @@ a {
     }
   }
   .fb-button {
-    //    position: relative;
-    //    right: -100px;
+        position: relative;
+        right: -60px;
   }
 }
 
@@ -190,7 +190,7 @@ a {
     font: normal 42px/42px HeliosCondCBold;
     text-transform: uppercase;
     padding: 20px 0;
-    letter-spacing: 1px;
+    letter-spacing: -0.6px;
   }
   .pad-fix {
     padding-left: 15px;
@@ -200,6 +200,29 @@ a {
     font: normal 22px/52px HeliosCondC;
     text-transform: uppercase;
     padding-top: 40px;
+  }
+  .gt-share {
+    font: normal 21px/52px HeliosCondC;
+    margin-top: 25px;
+    background: #a1a1a1;
+    margin-left: -15px;
+    position: relative;
+    right: 15px;
+    a {
+      background: #a1a1a1;
+      display: inline-block;
+      color: @white;
+      text-transform: uppercase;
+      width: 100%;
+      text-align: center;
+      background: url("../images/fb_share.png") no-repeat top right;
+      background-position-y: 4px;
+//      background-position-x: -15px;
+      &:hover {
+        text-decoration: none;
+        opacity: 0.7;
+      }
+    }
   }
 }
 
@@ -226,26 +249,64 @@ a {
         color: @blue;
         text-decoration: none;
       }
+      &:focus {
+        background: @white;
+        color: @blue;
+        text-decoration: none;
+      }
       &:last-child {
         border-bottom: 0;
       }
     }
   }
   .mood-picture {
-    position: relative;
     font: normal 37px/37px HeliosCondCBold;
 
-    .mood1{
-      background: url("../images/mood_07.jpg") no-repeat;
-      height: 471px;
-      .mood-text {
-        margin-top: 40px;
+    .mood-text {
+      width: 50%;
+      text-align: left;
+      text-transform: uppercase;
+      margin-left: -70px;
+      .lifehack {
+        font: normal 27px/27px HeliosCondC;
         text-transform: uppercase;
-        .lifehack {
-          font: normal 27px/27px HeliosCondC;
-          text-transform: uppercase;
-          margin-left: 30px;
-          margin-top: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+      .order-ticket {
+        display: inline-block;
+        width: 251px;
+        height: 47px;
+        background: @red;
+        opacity: 0.7;
+        font: normal 16px/45px HeliosCondC;
+        text-transform: uppercase;
+        text-align: center;
+        border: 1px solid #82838a;
+        color: @white;
+        margin-bottom: 30px;
+        &:hover {
+          color: @white;
+          text-decoration: none;
+          opacity: 1;
+        }
+      }
+      .slider-fb-share {
+        display: inline-block;
+        width: 251px;
+        height: 47px;
+        background: @blue;
+        opacity: 0.7;
+        font: normal 16px/45px HeliosCondC;
+        text-transform: uppercase;
+        text-align: center;
+        border: 1px solid #82838a;
+        color: @white;
+        margin-bottom: 30px;
+        &:hover {
+          color: @white;
+          text-decoration: none;
+          opacity: 1;
         }
       }
     }
@@ -345,7 +406,7 @@ a {
   .fb-more {
     float: right;
     bottom: -25px;
-    //    position: absolute;
+//        position: absolute;
     min-width: 263px;
     height: 52px;
     display: inline-block;
@@ -559,6 +620,9 @@ a {
       color: @white;
       opacity: 0.7;
       background: url("../images/fb_share.png") no-repeat top right;
+      background-position-x: 221px;
+      background-position-y: 4px;
+
     }
   }
 }
@@ -714,6 +778,7 @@ a {
 }
 .xs-menu-items {
   background: @black;
+  z-index: 1;
   a {
     width: 100%;
     display: block;
@@ -731,6 +796,7 @@ a {
 }
   .xs-menu-auth {
     background: #252525;
+    z-index: 1;
     a {
       width: 100%;
       display: block;

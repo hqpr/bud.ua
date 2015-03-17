@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b9ab1e-b1ef-4827-af2e-86c5ad9f8f08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sm-mood-rect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/sm_mood.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mood2_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mood3_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/mood4_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/mood_03.jpg" afterPath="$PROJECT_DIR$/images/mood_03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/great_times.html" afterPath="$PROJECT_DIR$/great_times.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wishwall.html" afterPath="$PROJECT_DIR$/wishwall.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wishwall_2.html" afterPath="$PROJECT_DIR$/wishwall_2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -30,46 +35,48 @@
     <favorites_list name="bud.ua" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5577764">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.2631578" vertical-offset="1188" max-vertical-offset="5022">
-                  <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.65625" vertical-offset="2196" max-vertical-offset="6678">
+                  <caret line="140" column="103" selection-start-line="140" selection-start-column="103" selection-end-line="140" selection-end-column="103" />
                   <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="wishwall.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wishwall.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1062">
-                  <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+                <state vertical-scroll-proportion="-36.035088" vertical-offset="2608" max-vertical-offset="5112">
+                  <caret line="259" column="10" selection-start-line="259" selection-start-column="10" selection-end-line="259" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="wishwall_2.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="wishwall_2.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wishwall_2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5500849" vertical-offset="918" max-vertical-offset="4194">
-                  <caret line="69" column="34" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="34" />
+                <state vertical-scroll-proportion="-10.0" vertical-offset="918" max-vertical-offset="4248">
+                  <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ourbud_about.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/ourbud_about.html">
+          <file leaf-file-name="great_times.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/great_times.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="10.0" vertical-offset="1512" max-vertical-offset="4032">
-                  <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+                <state vertical-scroll-proportion="-12.703704" vertical-offset="719" max-vertical-offset="3798">
+                  <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
                   <folding />
                 </state>
               </provider>
@@ -79,20 +86,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.315789" vertical-offset="9588" max-vertical-offset="15480">
-                  <caret line="559" column="18" selection-start-line="559" selection-start-column="18" selection-end-line="559" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.7423971" vertical-offset="5057" max-vertical-offset="16650">
+                  <caret line="304" column="28" selection-start-line="304" selection-start-column="28" selection-end-line="304" selection-end-column="28" />
                   <folding />
                 </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="sm_mood.png" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/images/sm_mood.png">
-              <provider selected="true" editor-type-id="images">
-                <state />
               </provider>
             </entry>
           </file>
@@ -110,16 +110,16 @@
         <option value="$PROJECT_DIR$/ourbud.html" />
         <option value="$PROJECT_DIR$/../unilad/style.css" />
         <option value="$PROJECT_DIR$/../unilad/home.php" />
-        <option value="$PROJECT_DIR$/great_times.html" />
-        <option value="$PROJECT_DIR$/wishwall.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/ourbud_history.html" />
         <option value="$PROJECT_DIR$/ourbud_about.html" />
         <option value="$PROJECT_DIR$/ourbud_process.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wishwall.html" />
+        <option value="$PROJECT_DIR$/great_times.html" />
         <option value="$PROJECT_DIR$/wishwall_2.html" />
         <option value="$PROJECT_DIR$/less/main.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -471,7 +471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1426537540307</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="wishwall updates">
+      <created>1426581328633</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1426581328633</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -525,7 +531,8 @@
     <MESSAGE value="product xs size" />
     <MESSAGE value="index page all sizes - beta" />
     <MESSAGE value="gitignore update" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore update" />
+    <MESSAGE value="wishwall updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="wishwall updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -823,26 +830,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/great_times.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12054329" vertical-offset="2521" max-vertical-offset="3726">
-          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29220778" vertical-offset="0" max-vertical-offset="616">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wishwall.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44142616" vertical-offset="1000" max-vertical-offset="5094">
-          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -915,43 +906,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/sm_mood.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="392" max-vertical-offset="1062">
+        <state vertical-scroll-proportion="0.21103896" vertical-offset="392" max-vertical-offset="1062">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/great_times.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2631578" vertical-offset="1188" max-vertical-offset="5022">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-12.703704" vertical-offset="719" max-vertical-offset="3798">
+          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wishwall_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5500849" vertical-offset="918" max-vertical-offset="4194">
-          <caret line="69" column="34" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="34" />
+        <state vertical-scroll-proportion="-10.0" vertical-offset="918" max-vertical-offset="4248">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wishwall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.035088" vertical-offset="2608" max-vertical-offset="5112">
+          <caret line="259" column="10" selection-start-line="259" selection-start-column="10" selection-end-line="259" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.315789" vertical-offset="9588" max-vertical-offset="15480">
-          <caret line="559" column="18" selection-start-line="559" selection-start-column="18" selection-end-line="559" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.7423971" vertical-offset="5057" max-vertical-offset="16650">
+          <caret line="304" column="28" selection-start-line="304" selection-start-column="28" selection-end-line="304" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/sm_mood.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65625" vertical-offset="2196" max-vertical-offset="6678">
+          <caret line="140" column="103" selection-start-line="140" selection-start-column="103" selection-end-line="140" selection-end-column="103" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
