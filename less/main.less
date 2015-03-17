@@ -684,6 +684,9 @@ a {
 }
 
 .great-times-blocks {
+  a {
+    .transition(ease-in-out 0s);
+  }
   margin-bottom: 30px;
   img {
     width: 100%;
@@ -704,6 +707,14 @@ a {
       background: @red;
       color: @white;
     }
+    &:hover .gt-down {
+      background: url('../images/gt_down_red.png');
+    }
+
+    &:hover .gt-up {
+      background: url('../images/gt_up_red.png');
+    }
+
   }
   .gt-up {
     background: url("../images/gt_up.png") no-repeat top center;
