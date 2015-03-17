@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
     $('.wish').on('click', function(){
-       $(this).addClass('wish-done');
+        $(this).find('.wish-done').css('display', 'block');
     });
 });
 
