@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95b9ab1e-b1ef-4827-af2e-86c5ad9f8f08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/great_times.html" afterPath="$PROJECT_DIR$/great_times.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_about.html" afterPath="$PROJECT_DIR$/ourbud_about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_history.html" afterPath="$PROJECT_DIR$/ourbud_history.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_process.html" afterPath="$PROJECT_DIR$/ourbud_process.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wishwall.html" afterPath="$PROJECT_DIR$/wishwall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wishwall_2.html" afterPath="$PROJECT_DIR$/wishwall_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bud.ua.iws" />
@@ -36,11 +31,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.54965645">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.333333" vertical-offset="864" max-vertical-offset="6192">
-                  <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.3003663" vertical-offset="5272" max-vertical-offset="6210">
+                  <caret line="287" column="89" selection-start-line="287" selection-start-column="89" selection-end-line="287" selection-end-column="89" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -58,10 +53,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="wishwall_2.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="wishwall_2.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wishwall_2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.73344654" vertical-offset="270" max-vertical-offset="4410">
+                <state vertical-scroll-proportion="-16.0" vertical-offset="270" max-vertical-offset="4410">
                   <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
                   <folding />
                 </state>
@@ -117,8 +112,8 @@
           <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.55813956" vertical-offset="8670" max-vertical-offset="17334">
-                  <caret line="499" column="24" selection-start-line="499" selection-start-column="24" selection-end-line="499" selection-end-column="24" />
+                <state vertical-scroll-proportion="0.8157424" vertical-offset="15978" max-vertical-offset="17568">
+                  <caret line="913" column="24" selection-start-line="913" selection-start-column="24" selection-end-line="913" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -140,14 +135,14 @@
         <option value="$PROJECT_DIR$/../unilad/home.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/less/main.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/great_times.html" />
         <option value="$PROJECT_DIR$/ourbud_about.html" />
         <option value="$PROJECT_DIR$/ourbud_history.html" />
         <option value="$PROJECT_DIR$/ourbud_process.html" />
         <option value="$PROJECT_DIR$/wishwall.html" />
         <option value="$PROJECT_DIR$/wishwall_2.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/main.less" />
       </list>
     </option>
   </component>
@@ -553,7 +548,19 @@
       <option name="project" value="LOCAL" />
       <updated>1426844746036</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fb stream disable">
+      <created>1426844989190</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1426844989190</updated>
+    </task>
+    <task id="LOCAL-00022" summary="slider text">
+      <created>1426846624451</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1426846624451</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -615,7 +622,9 @@
     <MESSAGE value="desctop fixes" />
     <MESSAGE value="ourbud hovers" />
     <MESSAGE value="ourbud hovers +" />
-    <option name="LAST_COMMIT_MESSAGE" value="ourbud hovers +" />
+    <MESSAGE value="fb stream disable" />
+    <MESSAGE value="slider text" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -960,24 +969,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55813956" vertical-offset="8670" max-vertical-offset="17334">
-          <caret line="499" column="24" selection-start-line="499" selection-start-column="24" selection-end-line="499" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333" vertical-offset="864" max-vertical-offset="6192">
-          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/great_times.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.0" vertical-offset="270" max-vertical-offset="3798">
@@ -1022,8 +1013,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wishwall_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73344654" vertical-offset="270" max-vertical-offset="4410">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="270" max-vertical-offset="4410">
           <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3003663" vertical-offset="5272" max-vertical-offset="6210">
+          <caret line="287" column="89" selection-start-line="287" selection-start-column="89" selection-end-line="287" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8157424" vertical-offset="15978" max-vertical-offset="17568">
+          <caret line="913" column="24" selection-start-line="913" selection-start-column="24" selection-end-line="913" selection-end-column="24" />
           <folding />
         </state>
       </provider>
