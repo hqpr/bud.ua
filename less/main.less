@@ -136,7 +136,7 @@ a {
   }
   li {
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 29px;
   }
   a {
     text-decoration: none;
@@ -190,7 +190,7 @@ a {
     color: @red;
     font: normal 42px/42px HeliosCondCBold;
     text-transform: uppercase;
-    padding: 20px 0;
+    padding: 15px 0;
     letter-spacing: -0.6px;
   }
   .pad-fix {
@@ -234,7 +234,7 @@ a {
     a {
       margin-top: 1px;
       margin-left: 2px;
-      font: normal 25px/25px HeliosCondCBold;
+      font: normal 25px/21px HeliosCondCBold;
       display: block;
       width: 290px;
       height: 58px;
@@ -244,7 +244,7 @@ a {
       padding: 20px 0 0 40px;
       border-top: none;
       background: url("../images/q.png") no-repeat right 20px;
-      background-position-x: 260px;
+      background-position: 260px 15px;
       &:hover {
         background: @white;
         color: @blue;
@@ -470,6 +470,11 @@ a {
 }
 
 /* Our Bud */
+.full_width_bg {
+  width: 100%;
+  padding: 0;
+}
+
 .red-body {
   height: 100%;
   width: 100%;
@@ -479,22 +484,36 @@ a {
   margin-bottom: 30px;
 
   .bud-story {
-    img {
-      width: 100%;
-    }
     margin-bottom: 30px;
-    .bud-story-title {
-      background: @blue;
-      text-transform: uppercase;
-      font: bold 28px/28px HeliosCondC;
-      text-align: center;
-      padding-top: 10px;
-      padding-bottom: 5px;
-    }
     .bud-story-text {
       background: @dark-grey;
       font: normal 16px/16px HeliosCondC;
       padding: 15px;
+    }
+    .bud-story-image {
+      position: relative;
+      width: 100%;
+      img {
+        max-width: 100%;
+      }
+      .bud-story-title {
+        opacity: 0;
+      }
+      &:hover {
+        .bud-story-title {
+          background: @blue;
+          text-transform: uppercase;
+          font: bold 28px/28px HeliosCondC;
+          text-align: center;
+          padding-top: 10px;
+          padding-bottom: 5px;
+          opacity: 1;
+          position: absolute;
+          bottom: 0;
+          transition: .5s;
+          display: block;
+        }
+      }
     }
   }
   .bud-story-more {
