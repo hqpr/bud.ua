@@ -192,9 +192,6 @@ a {
     padding: 15px 0;
     letter-spacing: -0.6px;
   }
-  .pad-fix {
-    padding-left: 15px;
-  }
   .gt-month {
     color: #707070;
     font: normal 22px/52px HeliosCondC;
@@ -216,7 +213,7 @@ a {
       width: 100%;
       text-align: center;
       background: url("../images/fb_share.png") no-repeat top right;
-      background-position-y: 4px;
+      background-position: 190px 8px;
 //      background-position-x: -15px;
       &:hover {
         text-decoration: none;
@@ -407,7 +404,6 @@ a {
   .fb-more {
     float: right;
     bottom: -25px;
-//        position: absolute;
     min-width: 263px;
     height: 52px;
     display: inline-block;
@@ -794,7 +790,7 @@ a {
   height: 451px;
   font: normal 37px/37px HeliosCondCBold;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 80px;
   padding-left: 5px;
 
   .rect {
@@ -802,6 +798,36 @@ a {
     bottom: 0;
     margin-left: -5px;
     padding-right: 15px;
+    .sm-mood-menu {
+      display: none;
+      position: absolute;
+      background: @blue;
+      bottom: 0;
+      right: 6px;
+      z-index: 2;
+      padding-right: 0;
+      a {
+        margin-top: 1px;
+        margin-left: 2px;
+        font: normal 25px/21px HeliosCondCBold;
+        display: block;
+        height: 58px;
+        text-transform: uppercase;
+        color: @white;
+        border: 1px solid @white;
+        padding: 20px 0 0 40px;
+        border-top: none;
+        border-right: 0;
+        border-left: 0;
+        background: url("../images/q.png") no-repeat right;
+        background-position: 650px 15px;
+        &:hover {
+          background: @white;
+          color: @blue;
+          text-decoration: none;
+        }
+      }
+    }
     h1 {
       position: absolute;
       margin-top: 45px;
@@ -862,9 +888,12 @@ a {
     .sm-mood .rect h1 {
       font-size: 23px;
     }
+
   }
 
+.sm-mood {
 
+}
 
 
 
@@ -876,16 +905,17 @@ a {
     margin-bottom: 30px;
   }
   .page-title {
-    h1 {
-      font: bold 30px/30px HeliosCondC;
-    }
+    font-size: 30px;
   }
-  .page-title {
-    h1 {
-      font: bold 30px/30px HeliosCondC;
-    }
+  .red-body .bud-story .bud-story-image {
+    height: 126px;
   }
 
+  .fb-stream {
+    h1 {
+      font-size: 30px;
+    }
+  }
 }
 
 
@@ -904,10 +934,9 @@ a {
     h1 {
       font-size: 30px;
     }
-  }
-  .secondary-menu {
-    margin-left: 15px;
-    font: bold 24px/24px HeliosCondC;
+    .gt-name h1 {
+      font-size: 40px;
+    }
   }
 
   .fb-stream {
@@ -919,9 +948,42 @@ a {
   .top-panel .auth {
     margin-top: 35px;
   }
-  .read-more-button {
+
+  .fb-stream .fix-message {
+    height: 170px;
+  }
+  .fb-stream .fix-pic {
+    margin-top: -170px;
+  }
+  .fb-stream .small-block {
+    height: 175px;
+  }
+
+  .read-more-button .fb-more {
     width: 100%;
   }
+
+  .red-body .bud-story .bud-story-image {
+    height: 234px;
+  }
+
+  .secondary-menu {
+    font-size: 16px;
+    line-height: 8px;
+    margin-left: -70px;
+    li {
+      padding-top: 0;
+    }
+  }
+
+  .top-menu {
+    line-height: 16px;
+  }
+
+  .top-menu .fb-button {
+    bottom: 3px;
+  }
+
 }
 
 
@@ -962,6 +1024,25 @@ a {
     }
   }
 
+  .fb-stream .fix-message {
+    height: auto;
+  }
+  .fb-stream .fix-pic {
+    margin-top: 0;
+  }
+  .fb-stream .small-block {
+    height: 230px;
+  }
+
+  .red-body .bud-story .bud-story-image {
+    height: 305px;
+  }
+
+  .read-more-button .fb-more {
+    width: 100%;
+    min-width: 100px;
+    font-size: 17px;
+  }
 }
 
 /* LG */

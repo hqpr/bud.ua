@@ -3,8 +3,15 @@
  */
 
 $(document).ready(function(){
+
     $('.wish').on('click', function(){
         $(this).find('.wish-done').css('display', 'block');
     });
+
+    $('#sm-mood').on('click', function(e){
+        e.preventDefault();
+        $('.sm-mood-menu').slideDown();
+    });
+
 });
 
