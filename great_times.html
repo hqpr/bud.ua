@@ -16,7 +16,7 @@
 <section class="top-panel">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 bud-logo">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 bud-logo">
                 <a href="/index.html"><img src="images/bud_logo.png" alt=""/></a>
             </div>
             <div class="col-lg-offset-6 col-lg-3 col-md-offset-5 col-md-4 col-sm-6 hidden-xs auth">
@@ -25,24 +25,48 @@
                     <li><a href="">register</a></li>
                 </ul>
             </div>
+            <div class="visible-xs col-xs-3 pull-right xs-menu">
+
+                <a href="#collapse_xs_menu">
+                    <img data-toggle="collapse" data-target="#collapse_xs_menu" src="images/xs_menu.png" alt=""/>
+                </a>
+            </div>
+
+            <div class="collapse" id="collapse_xs_menu">
+                <div class="col-xs-12 xs-menu-items">
+                    <a href="">Наш Bud</a>
+                    <a href="">The Great Times</a>
+                    <a href="">fb stream</a>
+                    <a href="">wish wall</a>
+                    <a href="">події</a>
+                </div>
+                <div class="col-xs-12 xs-menu-auth">
+                    <a href="">login</a>
+                    <a href="">register</a>
+                    <a href="">feedback</a>
+                    <a class="fb" href=""><span>facebook</span></a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
-<section class="top-menu">
+<section class="hidden-xs top-menu">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-7 col-sm-10">
+            <div class="col-lg-7 col-md-8 col-sm-10">
                 <ul>
-                    <li><a href="ourbud_about.html">НАШ BUD</a></li>
-                    <li class="menu-active"><a href="">The Great Times</a></li>
+                    <li><a href="ourbud_history.html">НАШ BUD</a></li>
+                    <li><a href="great_times.html">The Great Times</a></li>
                     <!--<li><a href="">FB STREAM</a></li>-->
                     <li><a href="wishwall.html">WISH WALL</a></li>
                     <li><a href="">події</a></li>
                 </ul>
             </div>
-            <div class="col-lg-offset-4 col-lg-1 col-md-offset-4 col-md-1 col-sm-offset-1 col-sm-1 fb-button">
-                <a href=""><img src="images/fb_button.png" alt=""/></a>
+            <div class="col-lg-offset-4 col-lg-1 col-md-offset-3 col-md-1 col-sm-offset-1 col-sm-1 fb-button">
+                <div>
+                    <a href="https://www.facebook.com/BudUkraine"><img src="images/fb_button.png" alt=""/></a>
+                </div>
             </div>
         </div>
     </div>
@@ -53,13 +77,13 @@
 <section class="page-title">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-5 gt-name">
+            <div class="col-lg-4 col-md-4 col-sm-5 col-xs-7 gt-name">
                 <h1>the great times</h1>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
                 <p class="gt-month">березень <b>2015</b></p>
             </div>
-            <div class="col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-3 gt-share pull-right">
+            <div class="col-lg-offset-2 col-lg-3 col-md-offset-2 col-md-3 col-sm-3 hidden-xs gt-share pull-right">
                 <a href="">ПОДІЛИТИСЬ</a>
             </div>
         </div>
@@ -69,10 +93,43 @@
 <section class="great-times">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-8">
+            <div class="col-lg-8 col-md-8 col-sm-12">
                 <img src="images/header-tmp.png" alt=""/>
             </div>
-            <div class="col-lg-4  col-md-4 gt-header">
+            <div class="col-lg-4 col-md-4 hidden-sm hidden-xs gt-header">
+                <h1>Lorem ipsum dolor
+                    sit amet, consectetur
+                    adipisicing elit</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="visible-sm">
+    <div class="container">
+        <div class="row gt-sm-header">
+            <div class="col-sm-6">
+                <div class="gt-sm-up"></div>
+                <h1>Lorem ipsum dolor
+                    sit amet, consectetur
+                    adipisicing elit</h1>
+                <a class="gt-read-more" href="">Lorem ipsum dolor sit</a>
+            </div>
+            <div class="col-sm-6">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="visible-xs">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 great-times-xs">
                 <h1>Lorem ipsum dolor
                     sit amet, consectetur
                     adipisicing elit</h1>
@@ -82,10 +139,12 @@
         </div>
     </div>
 </section>
+
+
 <section class="great-times-blocks">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div>
                     <a href=""><img src="images/main_11.jpg" alt=""/></a>
                 </div>
@@ -100,7 +159,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <a href="" class="gt-block">
                     <div class="gt-down"></div>
                     <h1>Lorem ipsum dolor
@@ -115,7 +174,7 @@
                     <a href=""><img src="images/main_11.jpg" alt=""/></a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <div>
                     <a href=""><img src="images/main_11.jpg" alt=""/></a>
                 </div>
@@ -130,7 +189,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-3 col-md-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                 <a href="" class="gt-block">
                     <div class="gt-down"></div>
                     <h1>Lorem ipsum dolor
