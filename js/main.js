@@ -13,5 +13,10 @@ $(document).ready(function(){
         $('.sm-mood-menu').slideDown();
     });
 
+    $('#call_registration').on('click', function(e){
+        e.preventDefault();
+        $('.registration').slideDown();
+    });
+
 });
 

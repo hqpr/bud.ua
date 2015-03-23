@@ -123,6 +123,63 @@ a {
   }
 }
 
+.registration {
+  display: none;
+  text-transform: uppercase;
+  .registration-head{
+    background: @blue;
+    padding: 10px 0;
+    h1 {
+      font: bold 42px/42px HeliosCondCBold;
+    }
+    .close-button {
+      text-align: right;
+      margin-top: 20px;
+    }
+  }
+  .registration-body {
+    padding-bottom: 20px;
+    .registration-form {
+      input {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+//      input[type=radio] {
+//        float: left;
+//    }
+      margin-bottom: 70px;
+    }
+    background: #252525;
+    font: normal 12px/12px HeliosCondCBold;
+    color: #a1a1a1;
+    letter-spacing: 1px;
+    h1 {
+      font-size: 20px;
+      color: @white;
+      margin-left: 15px;
+    }
+    .reg-confirm {
+      width: 100%;
+      text-transform: uppercase;
+      background: @red;
+      font-size: 20px;
+      letter-spacing: 4px;
+      text-align: center;
+      padding: 15px 0;
+      display: inline-block;
+      color: @white;
+      &:hover {
+        text-decoration: none;
+        opacity: 0.7;
+      }
+
+    }
+    .reg-policy {
+//      margin-left: -30px;
+    }
+  }
+}
+
 .top-menu {
   height: 40px;
   margin-top: 10px;
