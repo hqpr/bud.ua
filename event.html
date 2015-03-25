@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <title>events</title>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/flexslider.css"/>
     <link rel="stylesheet/less" href="less/main.less"/>
 
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/less.min.js"></script>
+
+    <script src="js/jquery.flexslider.js"></script>
 </head>
 <body>
 
@@ -85,7 +88,7 @@
             <div class="clearfix"></div>
 
 
-            <div class="bud-events">
+            <div class="bud-events single-event">
                 <div class="col-lg-3">
                     <img src="images/IVENTS_03_03.jpg" alt=""/>
                 </div>
@@ -95,13 +98,98 @@
                         <p class="be-news-big">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
                         </p>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p></div>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. </p>
+
+
+
+                        <section class="slider">
+                            <div id="slider" class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="images/slide1.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide2.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide3.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide4.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide1.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide2.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide3.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide4.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide1.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide2.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide3.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide4.jpg" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="carousel" class="flexslider">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="images/slide1.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide2.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide3.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide4.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide1.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide2.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide3.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide4.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide1.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide2.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide3.jpg" />
+                                    </li>
+                                    <li>
+                                        <img src="images/slide4.jpg" />
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                    </div>
+
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
 </section>
@@ -117,7 +205,33 @@
 </section>
 
 
+<script type="text/javascript">
+    $(function(){
+        SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+        $('#carousel').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            itemWidth: 210,
+            itemMargin: 5,
+            asNavFor: '#slider'
+        });
 
+        $('#slider').flexslider({
+            animation: "slide",
+            controlNav: false,
+            animationLoop: false,
+            slideshow: false,
+            sync: "#carousel",
+            start: function(slider){
+                $('body').removeClass('loading');
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
