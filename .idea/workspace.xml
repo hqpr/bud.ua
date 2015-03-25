@@ -4,8 +4,8 @@
     <list default="true" id="95b9ab1e-b1ef-4827-af2e-86c5ad9f8f08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/great_times.html" afterPath="$PROJECT_DIR$/great_times.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/main.less" afterPath="$PROJECT_DIR$/less/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ourbud_history.html" afterPath="$PROJECT_DIR$/ourbud_history.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bud.ua.iws" />
@@ -33,25 +33,33 @@
     <splitter split-orientation="horizontal" split-proportion="0.62233377">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.3333335" vertical-offset="108" max-vertical-offset="6246">
-                  <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.64612955" vertical-offset="1427" max-vertical-offset="3096">
+                  <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
                   <folding>
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tmp.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tmp.html">
+          <file leaf-file-name="ourbud_history.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ourbud_history.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
-                  <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="144" />
+                <state vertical-scroll-proportion="-12.0" vertical-offset="216" max-vertical-offset="1476">
+                  <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
                   <folding>
-                    <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -60,8 +68,8 @@
           <file leaf-file-name="great_times.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/great_times.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.703704" vertical-offset="4166" max-vertical-offset="4914">
-                  <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
+                <state vertical-scroll-proportion="-78.37037" vertical-offset="602" max-vertical-offset="4914">
+                  <caret line="151" column="47" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -84,10 +92,12 @@
           <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33281735" vertical-offset="1513" max-vertical-offset="21942">
-                  <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+                <state vertical-scroll-proportion="0.64296997" vertical-offset="19015" max-vertical-offset="19962">
+                  <caret line="1254" column="19" selection-start-line="1254" selection-start-column="19" selection-end-line="1254" selection-end-column="19" />
                   <folding>
-                    <element signature="e#22828#23765#0" expanded="false" />
+                    <element signature="e#19790#20821#0" expanded="false" />
+                    <element signature="e#20926#23001#0" expanded="false" />
+                    <element signature="e#24160#24228#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -110,14 +120,14 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ourbud_about.html" />
         <option value="$PROJECT_DIR$/wishwall_2.html" />
-        <option value="$PROJECT_DIR$/ourbud_history.html" />
         <option value="$PROJECT_DIR$/wishwall.html" />
         <option value="$PROJECT_DIR$/ourbud_process.html" />
-        <option value="$PROJECT_DIR$/tmp.html" />
-        <option value="$PROJECT_DIR$/great_times.html" />
-        <option value="$PROJECT_DIR$/less/main.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/great_times.html" />
+        <option value="$PROJECT_DIR$/tmp.html" />
+        <option value="$PROJECT_DIR$/ourbud_history.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/less/main.less" />
       </list>
     </option>
   </component>
@@ -563,7 +573,13 @@
       <option name="project" value="LOCAL" />
       <updated>1427280405538</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixes">
+      <created>1427285563992</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1427285563992</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,7 +629,6 @@
     <MESSAGE value="wishwall page 1" />
     <MESSAGE value="wishwall page 2" />
     <MESSAGE value="great times beta" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="product xs size" />
     <MESSAGE value="index page all sizes - beta" />
     <MESSAGE value="gitignore update" />
@@ -632,7 +647,8 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="registration" />
     <MESSAGE value="changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes" />
+    <MESSAGE value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -645,6 +661,11 @@
           <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,7 +683,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22914">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22828#23765#0" expanded="false" />
+            <element signature="e#19790#20821#0" expanded="false" />
+            <element signature="e#20926#23001#0" expanded="false" />
+            <element signature="e#24160#24228#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -673,6 +696,11 @@
           <caret line="169" column="47" selection-start-line="169" selection-start-column="47" selection-end-line="169" selection-end-column="47" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,7 +710,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22716">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22828#23765#0" expanded="false" />
+            <element signature="e#19790#20821#0" expanded="false" />
+            <element signature="e#20926#23001#0" expanded="false" />
+            <element signature="e#24160#24228#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -693,6 +723,11 @@
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -702,7 +737,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="22374">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#22828#23765#0" expanded="false" />
+            <element signature="e#19790#20821#0" expanded="false" />
+            <element signature="e#20926#23001#0" expanded="false" />
+            <element signature="e#24160#24228#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -735,34 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/great_times.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.703704" vertical-offset="4166" max-vertical-offset="4914">
-          <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33281735" vertical-offset="1513" max-vertical-offset="21942">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding>
-            <element signature="e#22828#23765#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="108" max-vertical-offset="6246">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
@@ -771,12 +780,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.html">
+    <entry file="file://$PROJECT_DIR$/great_times.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="144" />
+        <state vertical-scroll-proportion="-78.37037" vertical-offset="602" max-vertical-offset="4914">
+          <caret line="151" column="47" selection-start-line="151" selection-start-column="47" selection-end-line="151" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ourbud_history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="216" max-vertical-offset="1476">
+          <caret line="104" column="56" selection-start-line="104" selection-start-column="56" selection-end-line="104" selection-end-column="56" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64296997" vertical-offset="19015" max-vertical-offset="19962">
+          <caret line="1254" column="19" selection-start-line="1254" selection-start-column="19" selection-end-line="1254" selection-end-column="19" />
+          <folding>
+            <element signature="e#19790#20821#0" expanded="false" />
+            <element signature="e#20926#23001#0" expanded="false" />
+            <element signature="e#24160#24228#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64612955" vertical-offset="1427" max-vertical-offset="3096">
+          <caret line="395" column="0" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
