@@ -43,7 +43,7 @@
  * BASE STYLES
  * ====================================================================================================================*/
 
-.slides > li {margin-right: 25px;}
+#carousel .slides > li {margin-left: 25px;}
 
 .flexslider {
   margin: 0;
