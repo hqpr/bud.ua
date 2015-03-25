@@ -18,5 +18,10 @@ $(document).ready(function(){
         $('.registration').slideDown();
     });
 
+    $('#call_login').on('click', function(e){
+        e.preventDefault();
+        $('.login').slideDown();
+    });
+
 });
 

@@ -125,58 +125,78 @@ a {
 
 .registration {
   display: none;
-  text-transform: uppercase;
-  .registration-head{
-    background: @blue;
-    padding: 10px 0;
-    h1 {
-      font: bold 42px/42px HeliosCondCBold;
-    }
-    .close-button {
-      text-align: right;
-      margin-top: 20px;
+}
+
+.login {
+  display: none;
+  .login-style {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .login-button {
+    background: @red;
+    color: @white;
+    letter-spacing: 5px;
+    width: 117px;
+    padding: 16px 0;
+    text-align: center;
+    display: inline-block;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.7;
     }
   }
-  .registration-body {
-    padding-bottom: 20px;
-    .registration-form {
-      input {
-        width: 100%;
-        margin-bottom: 15px;
-      }
-//      input[type=radio] {
-//        float: left;
-//    }
-      margin-bottom: 70px;
-    }
-    background: #252525;
-    font: normal 12px/12px HeliosCondCBold;
-    color: #a1a1a1;
-    letter-spacing: 1px;
-    h1 {
-      font-size: 20px;
-      color: @white;
-      margin-left: 15px;
-    }
-    .reg-confirm {
-      width: 100%;
-      text-transform: uppercase;
-      background: @red;
-      font-size: 20px;
-      letter-spacing: 4px;
-      text-align: center;
-      padding: 15px 0;
-      display: inline-block;
-      color: @white;
-      &:hover {
-        text-decoration: none;
-        opacity: 0.7;
-      }
+}
 
+.registration-head{
+  text-transform: uppercase;
+  background: @blue;
+  padding: 10px 0;
+  h1 {
+    font: bold 42px/42px HeliosCondCBold;
+  }
+  .close-button {
+    text-align: right;
+    margin-top: 20px;
+  }
+}
+.registration-body {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  .registration-form {
+    input {
+      width: 100%;
+      margin-bottom: 15px;
     }
-    .reg-policy {
-//      margin-left: -30px;
+    margin-bottom: 70px;
+  }
+  background: #252525;
+  font: normal 12px/12px HeliosCondCBold;
+  color: #a1a1a1;
+  letter-spacing: 1px;
+  h1 {
+    font-size: 20px;
+    color: @white;
+    margin-left: 15px;
+  }
+  .reg-confirm {
+    width: 100%;
+    text-transform: uppercase;
+    background: @red;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 15px 0;
+    display: inline-block;
+    color: @white;
+    &:hover {
+      text-decoration: none;
+      opacity: 0.7;
     }
+
+  }
+  .reg-policy {
+    //      margin-left: -30px;
   }
 }
 
@@ -211,8 +231,8 @@ a {
     }
   }
   .fb-button {
-        position: relative;
-        right: -30px;
+    position: relative;
+    right: -30px;
     text-align: right;
   }
 }
@@ -275,7 +295,7 @@ a {
       text-align: center;
       background: url("../images/fb_share.png") no-repeat top right;
       background-position: 190px 8px;
-//      background-position-x: -15px;
+      //      background-position-x: -15px;
       &:hover {
         text-decoration: none;
         opacity: 0.7;
@@ -567,7 +587,7 @@ a {
           opacity: 1;
           position: absolute;
           bottom: 0;
-          transition: .5s;
+//          transition: .5s;
           display: block;
         }
       }
@@ -844,7 +864,7 @@ a {
   }
 }
 .sm-mood {
-  background: url("../images/sm_mood.png") no-repeat;
+  background: url("../images/mood_03.jpg") no-repeat;
   width: 100%;
   height: 451px;
   font: normal 37px/37px HeliosCondCBold;
@@ -901,6 +921,17 @@ a {
   z-index: 2;
 }
 .xs-menu-items {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
   background: @black;
   z-index: 1;
   a {
@@ -918,38 +949,49 @@ a {
     }
   }
 }
-  .xs-menu-auth {
-    background: #252525;
-    z-index: 1;
-    a {
-      width: 100%;
-      display: block;
-      height: 55px;
-      font: bold 24px/56px HeliosCondC;
-      color: @white;
-      padding-left: 10px;
-      text-transform: uppercase;
-      border-bottom: 1px solid @white;
-      &:hover {
-        text-decoration: none;
-        background: @blue;
-      }
-    }
-    .fb {
-      background: url("../images/fb_stream_button.png") no-repeat left;
-      background-position-x: 10px;
-      span {
-        padding-left: 15px;
-      }
-      &:hover {
-        background: url("../images/fb_stream_button.png") no-repeat left;
-      }
-    }
-    .sm-mood .rect h1 {
-      font-size: 23px;
-    }
+.xs-menu-auth {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 
+    li {
+      margin: 0;
+      padding: 0;
+    }
   }
+
+  background: #252525;
+  z-index: 1;
+  a {
+    width: 100%;
+    display: block;
+    height: 55px;
+    font: bold 24px/56px HeliosCondC;
+    color: @white;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid @white;
+    &:hover {
+      text-decoration: none;
+      background: @blue;
+    }
+  }
+  .fb {
+    background: url("../images/fb_stream_button.png") no-repeat left;
+    background-position-x: 10px;
+    span {
+      padding-left: 15px;
+    }
+    &:hover {
+      background: url("../images/fb_stream_button.png") no-repeat left;
+    }
+  }
+  .sm-mood .rect h1 {
+    font-size: 23px;
+  }
+
+}
 
 .sm-mood {
 
@@ -963,6 +1005,25 @@ a {
   max-width: none;
 }
 
+.visible-xs {
+  .great-times-xs {
+    margin-left: 0;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    background: @light-grey;
+    color: #555555;
+    font: normal 18px/18px HeliosCondC;
+    h1 {
+      color: #c3002f;
+      font: normal 24px/24px HeliosCondC;
+      text-transform: uppercase;
+      padding-top: 15px;
+    }
+    p {
+      padding: 30px 0;
+    }
+  }
+}
 
 
 
@@ -972,11 +1033,11 @@ a {
 
 /* XS */
 /* Small devices (tablets, 468px and up) */
-@media (max-width: 468px) {
+@media (min-width: 468px) {
   .our-bud-blocks {
     margin-bottom: 30px;
   }
-  .page-title {
+  .page-title h1 {
     font-size: 30px;
   }
   .red-body .bud-story .bud-story-image {
@@ -996,23 +1057,6 @@ a {
     padding-top: 33px;
   }
 
-  .great-times-xs {
-    margin-left: 0;
-    margin-bottom: 30px;
-    margin-top: -30px;
-    background: @light-grey;
-    color: #555555;
-    font: normal 18px/18px HeliosCondC;
-    h1 {
-      color: #c3002f;
-      font: normal 24px/24px HeliosCondC;
-      text-transform: uppercase;
-      padding-top: 15px;
-    }
-    p {
-      padding: 30px 0;
-    }
-  }
 
   .sm-mood .rect h1 {
     bottom: -18%;
@@ -1024,6 +1068,14 @@ a {
   .page-title h1 {
     font-size: 30px;
     line-height: 30px;
+  }
+
+  .great-times-blocks .gt-block {
+    font-size: 18px;
+    &:hover, &:hover h1 {
+      background: @light-grey;
+      color: #555555;
+    }
   }
 
 }
@@ -1039,6 +1091,9 @@ a {
 
   .top-menu {
     height: 30px;
+  }
+  .page-title h1 {
+    font-size: 30px;
   }
   .page-title {
     h1 {
@@ -1173,6 +1228,10 @@ a {
   .mood .mood-picture .mood1 .mood-text .lifehack {
     margin-top: -0px;
   }
+  .mood .mood-picture .mood-text {
+    margin-left: -50px;
+    margin-bottom: -10px;
+  }
   .read-more-button .fb-more {
     max-width: 213px;
   }
@@ -1180,9 +1239,15 @@ a {
   .mood {
     height: 470px;
     .mood-menu {
+      z-index: 1;
+
       a {
+        width: 226px;
+        padding-right: 0;
+        padding-left: 10px;
         font-size: 21px;
         height: 58px;
+        background-position: 197px 15px;
       }
     }
   }

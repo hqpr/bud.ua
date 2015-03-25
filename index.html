@@ -34,66 +34,66 @@
                     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h1>
 
                 <div class="registration-form">
+
                     <form action="">
-                        <div class="col-lg-3">
-                            <label for="last_name">прізвище</label> <br/>
-                            <input id="last_name" type="text"/>
+                        <div class="row-fluid">
+                            <div class="col-lg-3">
+                                <label for="last_name">прізвище</label> <br/>
+                                <input id="last_name" type="text"/>
+                            </div>
 
-                            <label for="sex">стать</label>
-                            <input type="radio" name="sex"/>жіноча
-                            <input type="radio" name="sex"/>чоловіча
+                            <div class="col-lg-3">
+                                <label for="first_name">im‘я</label> <br/>
+                                <input id="first_name" type="text"/>
+                            </div>
 
-                            <div>
-                                <label for="region">район</label> <br/>
-                                <select name="" id="region">
-                                    <option value="bb">Брайтон Бич</option>
-                                    <option value="bx">Бронкс</option>
-                                    <option value="shit">Борщага</option>
+                            <div class="col-lg-3">
+                                <label for="third_name">прізвище</label> <br/>
+                                <input id="third_name" type="text"/>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <label for="birth_day">дата народження</label> <br/>
+                                <select name="" id="birth_day">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="arbuz">арбуз</option>
+                                    <option value="banana">банан</option>
+                                    <option value="xyu">фейхуа</option>
+                                </select>
+                                <select name="" id="">
+                                    <option value="1984">1984</option>
+                                    <option value="1939">1939</option>
+                                    <option value="2015">2015</option>
                                 </select>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <label for="first_name">im‘я</label> <br/>
-                            <input id="first_name" type="text"/>
 
-                            <label for="email">e-mail</label> <br/>
-                            <input id="email" type="text"/>
-
-                            <div>
-                                <label for="city">місто</label> <br/>
-                                <select name="" id="city">
-                                    <option value="ca">Файне мiсто Тернопiль</option>
-                                    <option value="mi">Нижний Мухосранск</option>
-                                    <option value="redass">Верхний Тагил</option>
-                                </select>
+                        <div class="row-fluid">
+                            <div class="col-lg-3">
+                                <label for="sex">стать</label>
+                                <input type="radio" name="sex"/>жіноча
+                                <input type="radio" name="sex"/>чоловіча
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="mob">телефон</label> <br/>
+                                <input id="mob" type="text"/>
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="email">e-mail</label> <br/>
+                                <input id="email" type="text"/>
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="pass">пароль</label> <br/>
+                                <input id="pass" type="text"/>
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <label for="third_name">по-батькові</label> <br/>
-                            <input id="third_name" type="text"/>
 
-                            <label for="mob">телефон</label> <br/>
-                            <input id="mob" type="text"/>
-                        </div>
-                        <div class="col-lg-3">
-                            <label for="birth_day">дата народження</label> <br/>
-                            <select name="" id="birth_day">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="arbuz">арбуз</option>
-                                <option value="banana">банан</option>
-                                <option value="xyu">фейхуа</option>
-                            </select>
-                            <select name="" id="">
-                                <option value="1984">1984</option>
-                                <option value="1939">1939</option>
-                                <option value="2015">2015</option>
-                            </select>
-
-                            <div>
+                        <div class="row-fluid">
+                            <div class="col-lg-3">
                                 <label for="region">область</label> <br/>
                                 <select name="" id="region">
                                     <option value="ca">Калифорния</option>
@@ -101,7 +101,23 @@
                                     <option value="redass">Красножопинская</option>
                                 </select>
                             </div>
-
+                            <div class="col-lg-3">
+                                <label for="region">район</label> <br/>
+                                <select name="" id="region">
+                                    <option value="bb">Брайтон Бич</option>
+                                    <option value="bx">Бронкс</option>
+                                    <option value="shit">Борщага</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3">
+                                <label for="city">місто</label> <br/>
+                                <select name="" id="city">
+                                    <option value="ca">Файне мiсто Тернопiль</option>
+                                    <option value="mi">Нижний Мухосранск</option>
+                                    <option value="redass">Верхний Тагил</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3"></div>
                         </div>
                     </form>
                 </div>
@@ -123,6 +139,41 @@
 </section>
 
 
+<section class="login">
+    <div class="registration-head">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h1>авторизація</h1>
+                </div>
+                <div class="col-lg-offset-8 col-lg-1 close-button">
+                    <a href=""><img src="images/reg_close.png" alt=""/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="registration-body login-style">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 ">
+                    <label for="mobile">ТЕЛЕФОН:</label>
+                    <input type="text" id="mobile"/>
+                </div>
+                <div class="col-lg-5">
+                    <label for="passw">пароль:</label>
+                    <input type="text" id="passw"/>
+                    <a class="login-button" href="">вхід</a>
+                    АБО
+                </div>
+                <div class="col-lg-3">
+                    <a href="">ВХІД ЧЕРЕЗ FB</a>
+                    <a href="">нагадати пароль?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="top-panel">
     <div class="container">
         <div class="row">
@@ -131,7 +182,7 @@
             </div>
             <div class="col-lg-offset-6 col-lg-3 col-md-offset-5 col-md-4 col-sm-6 hidden-xs auth">
                 <ul>
-                    <li><a href="">login</a></li>
+                    <li><a href="" id="call_login">login</a></li>
                     <li><a href="" id="call_registration">register</a></li>
                 </ul>
             </div>
@@ -144,10 +195,10 @@
 
             <div class="collapse" id="collapse_xs_menu">
                 <div class="col-xs-12 xs-menu-items">
-                    <a href="">Наш Bud</a>
-                    <a href="">The Great Times</a>
+                    <a href="ourbud_history.html">Наш Bud</a>
+                    <a href="great_times.html">The Great Times</a>
                     <a href="">fb stream</a>
-                    <a href="">wish wall</a>
+                    <a href="wishwall.html">wish wall</a>
                     <a href="">події</a>
                 </div>
                 <div class="col-xs-12 xs-menu-auth">
@@ -283,8 +334,7 @@
             <div class="col-sm-12">
                 <div class="sm-mood">
                     <div class="col-sm-5 col-xs-6">
-                        <p>Розважаєшся?  Нудьгуєш?</p>
-                        <p>Підкинути варіант,  де затусити  і як весело провести час</p>
+                        <p>Скажи, який у тебе настрій – і ми зробимо його ще кращим</p>
                     </div>
                     <div class="rect">
                         <a id="sm-mood" href="#"><img src="images/sm-mood-rect.png" alt="" width="100%"/></a>
