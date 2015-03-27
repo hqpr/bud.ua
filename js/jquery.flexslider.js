@@ -538,7 +538,7 @@
                 }
                 if (slider.animatingTo === slider.currentSlide && !scrolling && !(dx === null)) {
                     var updateDx = (reverse) ? -dx : dx,
-                        target = (updateDx > 0) ? slider.getTarget('next') : slider.getTarget('prev');
+                        target = (updateDx > 0) ? slider.getTarget('') : slider.getTarget('prev');
 
                     if (slider.canAdvance(target) && (Number(new Date()) - startT < 550 && Math.abs(updateDx) > 50 || Math.abs(updateDx) > cwidth/2)) {
                         slider.flexAnimate(target, slider.vars.pauseOnAction);
@@ -664,17 +664,17 @@
     // public methods
     slider.flexAnimate = function(target, pause, override, withSync, fromNav) {
       if (!slider.vars.animationLoop && target !== slider.currentSlide) {
-        slider.direction = (target > slider.currentSlide) ? "next" : "prev";
+        slider.direction = (target > slider.currentSlide) ? "" : "prev";
       }
 
-      if (asNav && slider.pagingCount === 1) slider.direction = (slider.currentItem < target) ? "next" : "prev";
+      if (asNav && slider.pagingCount === 1) slider.direction = (slider.currentItem < target) ? "" : "prev";
 
       if (!slider.animating && (slider.canAdvance(target, fromNav) || override) && slider.is(":visible")) {
         if (asNav && withSync) {
           var master = $(slider.vars.asNavFor).data('flexslider');
           slider.atEnd = target === 0 || target === slider.count - 1;
           master.flexAnimate(target, true, false, true, fromNav);
-          slider.direction = (slider.currentItem < target) ? "next" : "prev";
+          slider.direction = (slider.currentItem < target) ? "" : "prev";
           master.direction = slider.direction;
 
           if (Math.ceil((target + 1)/slider.visible) - 1 !== slider.currentSlide && target !== 0) {
@@ -834,13 +834,13 @@
              (asNav && slider.currentItem === 0 && target === slider.pagingCount - 1 && slider.direction !== "next") ? false :
              (target === slider.currentSlide && !asNav) ? false :
              (slider.vars.animationLoop) ? true :
-             (slider.atEnd && slider.currentSlide === 0 && target === last && slider.direction !== "next") ? false :
-             (slider.atEnd && slider.currentSlide === last && target === 0 && slider.direction === "next") ? false :
+             (slider.atEnd && slider.currentSlide === 0 && target === last && slider.direction !== "") ? false :
+             (slider.atEnd && slider.currentSlide === last && target === 0 && slider.direction === "") ? false :
              true;
     };
     slider.getTarget = function(dir) {
       slider.direction = dir;
-      if (dir === "next") {
+      if (dir === "") {
         return (slider.currentSlide === slider.last) ? 0 : slider.currentSlide + 1;
       } else {
         return (slider.currentSlide === 0) ? slider.last : slider.currentSlide - 1;
@@ -1112,8 +1112,8 @@
     // Primary Controls
     controlNav: true,               //Boolean: Create navigation for paging control of each slide? Note: Leave true for manualControls usage
     directionNav: true,             //Boolean: Create navigation for previous/next navigation? (true/false)
-    prevText: "Previous",           //String: Set the text for the "previous" directionNav item
-    nextText: "Next",               //String: Set the text for the "next" directionNav item
+    prevText: "",           //String: Set the text for the "previous" directionNav item
+    nextText: "",               //String: Set the text for the "next" directionNav item
 
     // Secondary Navigation
     keyboard: true,                 //Boolean: Allow slider navigating via keyboard left/right keys

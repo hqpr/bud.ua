@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $('#sm-mood').on('click', function(e){
         e.preventDefault();
-        $('.sm-mood-menu').slideDown();
+        $('.sm-mood-menu').slideToggle();
     });
 
     $('#call_registration').on('click', function(e){
