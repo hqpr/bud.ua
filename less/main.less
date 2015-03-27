@@ -1348,27 +1348,38 @@ a {
     height: 470px;
     .mood-menu {
       z-index: 1;
-
+      margin-right: 15px;
       a {
-        width: 226px;
+        width: 240px;
         padding-right: 0;
         padding-left: 25px;
         font-size: 21px;
         height: 58px;
-        background-position: 197px 15px;
+        background-position: 210px 15px;
+        &:hover {
+          background: url("../images/q_blue.png") no-repeat;
+          background: @white;
+          color: @blue;
+          text-decoration: none;
+          background-position: 210px 15px;
+        }
       }
     }
   }
 
   .fb-stream .fix-message {
     height: auto;
-    margin-top: -13px;
+    margin-top: -14px;
   }
   .fb-stream .fix-pic {
-    margin-top: 0;
+    margin-top: 2px;
   }
   .fb-stream .small-block {
-    height: 215px;
+    height: 213px;
+  }
+  .fb-stream .fix-top-message {
+    height: auto;
+    margin-top: -11px;
   }
 
   .red-body .bud-story .bud-story-image {
@@ -1395,5 +1406,20 @@ a {
   .page-title h1 {
     font-size: 42px;
     line-height: 62px;
+  }
+
+  .fb-stream .fix-message {
+    height: auto;
+    margin-top: -4px;
+  }
+  .fb-stream .fix-pic {
+    margin-top: 1px;
+  }
+  .fb-stream .small-block {
+    height: 261px;
+  }
+  .fb-stream .fix-top-message {
+    height: auto;
+    margin-top: -9px;
   }
 }
