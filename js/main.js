@@ -5,7 +5,8 @@
 $(document).ready(function(){
 
     $('.wish').on('click', function(){
-        $(this).find('.wish-done').css('display', 'block');
+        //$(this).find('.wish-done').css('display', 'block');
+        $(this).find('.wish-done').fadeToggle();
     });
 
     $('#sm-mood').on('click', function(e){
