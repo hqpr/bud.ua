@@ -19,5 +19,10 @@ $(document).ready(function(){
         $('.registration').slideDown();
     });
 
+    $('#collapse_xs_menu_on').on('click', function(e){
+        e.preventDefault();
+        $('#collapse_xs_menu').toggle();
+    });
+
 });
 
