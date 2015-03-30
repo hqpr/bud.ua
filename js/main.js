@@ -26,5 +26,13 @@ $(document).ready(function(){
 
     });
 
+    $('.sm-mood-menu>a').on('click', function(e){
+        e.preventDefault();
+        var newClass = $(this).data('image');
+        $('.mood-block').hide();
+        $('.mood-block.'+newClass).show();
+        $('.sm-mood-menu ').slideToggle();
+    });
+
 });
 

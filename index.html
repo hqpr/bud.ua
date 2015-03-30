@@ -151,30 +151,31 @@
                     <li><a href="">Зворотній зв'язок</a></li>
                 </ul>
             </div>
-
-
-            <div class="visible-xs col-xs-3 pull-right xs-menu">
-
-                <a id="collapse_xs_menu_on" href="#collapse_xs_menu">
-                    <img src="images/xs_menu.png" alt=""/>
-                </a>
-            </div>
-            <div class="overlay-menu"></div>
-            <div class="" id="collapse_xs_menu" style="display: none">
-                <div class="col-xs-12 xs-menu-items">
-                    <a href="ourbud_history.html">Наш Bud</a>
-                    <a href="great_times.html">The Great Times</a>
-                    <a href="">fb stream</a>
-                    <a href="wishwall.html">wish wall</a>
-                    <a href="events.html">події</a>
+            <!--xs menu-->
+            <div style="position: absolute; z-index: 6; top: 0; width: 100%;">
+                <div class="visible-xs col-xs-3 pull-right xs-menu">
+                    <a id="collapse_xs_menu_on" href="#collapse_xs_menu">
+                        <img src="images/xs_menu.png" alt=""/>
+                    </a>
                 </div>
-                <div class="col-xs-12 xs-menu-auth">
-                    <a href="">login</a>
-                    <a href="">register</a>
-                    <a href="">feedback</a>
-                    <a class="fb" href=""><span>facebook</span></a>
+                <div class="overlay-menu"></div>
+                <div class="" id="collapse_xs_menu" style="display: none">
+                    <div class="col-xs-12 xs-menu-items">
+                        <a href="ourbud_history.html">Наш Bud</a>
+                        <a href="great_times.html">The Great Times</a>
+                        <a href="">fb stream</a>
+                        <a href="wishwall.html">wish wall</a>
+                        <a href="events.html">події</a>
+                    </div>
+                    <div class="col-xs-12 xs-menu-auth">
+                        <a href="">login</a>
+                        <a href="">register</a>
+                        <a href="">feedback</a>
+                        <a class="fb" href=""><span>facebook</span></a>
+                    </div>
                 </div>
             </div>
+            <!--end xs menu-->
 
 
         </div>
@@ -303,18 +304,50 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="sm-mood">
-                    <div class="col-sm-5 col-xs-6">
-                        <p>РОЗВАЖАЄШСЯ? НУДЬГУЄШ? </p>
+
+                    <div class="mood-block img_1">
+                        <div class="sm-mood-pic">
+                            <img src="images/mood_03.jpg" alt="" width="100%"/>
+                        </div>
+
+                        <div class="col-sm-5 col-xs-6 sm-mood-text">
+                            <p>РОЗВАЖАЄШСЯ? НУДЬГУЄШ? </p>
                             <p>ПІДКИНУТИ ВАРІАНТ, ДЕ ЗАТУСИТИ І ЯК ВЕСЕЛО ПРОВЕСТИ ЧАС
-                        </p>
+                            </p>
+                        </div>
                     </div>
+
+                    <div class="mood-block img_2">
+                        <div class="sm-mood-pic">
+                            <img src="images/mood4_03.jpg" alt="" width="100%"/>
+                        </div>
+
+                        <div class="col-sm-5 col-xs-6 sm-mood-text">
+                            <p>222222222222222222 </p>
+                            <p>ПІДКИНУТИ ВАРІАНТ, ДЕ ЗАТУСИТИ І ЯК ВЕСЕЛО ПРОВЕСТИ ЧАС
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mood-block img_3">
+                        <div class="sm-mood-pic">
+                            <img src="images/mood3_03.jpg" alt="" width="100%"/>
+                        </div>
+
+                        <div class="col-sm-5 col-xs-6 sm-mood-text">
+                            <p>333333333333333333</p>
+                            <p>ПІДКИНУТИ ВАРІАНТ, ДЕ ЗАТУСИТИ І ЯК ВЕСЕЛО ПРОВЕСТИ ЧАС
+                            </p>
+                        </div>
+                    </div>
+
                     <div class="rect">
                         <a id="sm-mood" href="#"><img src="images/sm-mood-rect.png" alt="" width="100%"/></a>
                         <h1>обери свій настрій та отримай корисний лайфхак</h1>
                         <div class="sm-mood-menu full_width_bg">
-                            <a href="">Десь би затусити</a>
-                            <a href="">Рішуче</a>
-                            <a href="">Бешкетно</a>
+                            <a data-image="img_1" href="">Десь би затусити</a>
+                            <a data-image="img_2" href="">Рішуче</a>
+                            <a data-image="img_3" href="">Бешкетно</a>
                             <a href="">Нудьгую</a>
                             <a href="">Підбадьорте</a>
                             <a href="">Усе круто</a>
@@ -324,6 +357,10 @@
                     </div>
 
                 </div>
+
+
+
+
             </div>
         </div>
     </div>
@@ -425,11 +462,11 @@
     </div>
 
     <!--<div class="container read-more-button">-->
-        <!--<div class="row">-->
-            <!--<div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-6 col-sm-6 hidden-xs">-->
-                <!--<a class="fb-more" href="">ЗАВАНТАЖИТИ БІЛЬШЕ</a>-->
-            <!--</div>-->
-        <!--</div>-->
+    <!--<div class="row">-->
+    <!--<div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-6 col-sm-6 hidden-xs">-->
+    <!--<a class="fb-more" href="">ЗАВАНТАЖИТИ БІЛЬШЕ</a>-->
+    <!--</div>-->
+    <!--</div>-->
     <!--</div>-->
 </section>
 

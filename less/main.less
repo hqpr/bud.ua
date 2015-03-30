@@ -632,15 +632,7 @@ a {
   margin-top: 30px;
 }
 
-.overlay-menu {
-  display: none;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 80px;
-  background: @black;
-  opacity: 0.6;
-}
+
 
 .wishwall {
   padding: 0;
@@ -877,26 +869,38 @@ a {
   }
 }
 .sm-mood {
-  background: url("../images/mood_03.jpg") no-repeat;
+  position: relative;
   width: 100%;
-  height: 451px;
   font: normal 37px/37px HeliosCondCBold;
   text-transform: uppercase;
-  padding-top: 80px;
   padding-left: 5px;
+  margin-bottom: 10px;
+
+  .mood-block {
+    display: none;
+  }
+  .mood-block.img_1 {
+    display: block;
+  }
+
+
+  .sm-mood-pic {
+    position: relative;
+  }
+  .sm-mood-text {
+    position: absolute;
+    top: 30px;
+  }
 
   .rect {
     position: absolute;
     bottom: 0;
-    margin-left: -5px;
-    padding-right: 15px;
     .sm-mood-menu {
       display: none;
       height: 455px;
       position: absolute;
       background: @blue;
-      bottom: 0;
-      right: 7px;
+      top: -320px;
       z-index: 2;
       padding-right: 0;
       a {
@@ -926,13 +930,23 @@ a {
     }
   }
 }
+
+.overlay-menu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+//  top: 80px;
+  background: @black;
+  opacity: 0.6;
+}
 .xs-menu {
   margin-top: 20px;
   z-index: 4;
   padding-left: 50px;
 }
 .xs-menu-items {
-  margin-top: 6px;
+  margin-top: 26px;
   ul {
     margin: 0;
     padding: 0;
@@ -1223,7 +1237,7 @@ a {
     font-weight: normal;
   }
   .sm-mood .rect {
-    margin-left: -4px;
+//    margin-left: -4px;
   }
 
 

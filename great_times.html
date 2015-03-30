@@ -9,6 +9,7 @@
     <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/less.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 </head>
 <body>
@@ -26,14 +27,15 @@
                     <li><a href="">Зворотній зв'язок</a></li>
                 </ul>
             </div>
-            <div class="visible-xs col-xs-3 pull-right xs-menu">
 
-                <a href="#collapse_xs_menu">
-                    <img data-toggle="collapse" data-target="#collapse_xs_menu" src="images/xs_menu.png" alt=""/>
+            <!--xs menu-->
+            <div class="visible-xs col-xs-3 pull-right xs-menu">
+                <a id="collapse_xs_menu_on" href="#collapse_xs_menu">
+                    <img src="images/xs_menu.png" alt=""/>
                 </a>
             </div>
-
-            <div class="collapse" id="collapse_xs_menu">
+            <div class="overlay-menu"></div>
+            <div class="" id="collapse_xs_menu" style="display: none">
                 <div class="col-xs-12 xs-menu-items">
                     <a href="ourbud_history.html">Наш Bud</a>
                     <a href="great_times.html">The Great Times</a>
@@ -48,6 +50,7 @@
                     <a class="fb" href=""><span>facebook</span></a>
                 </div>
             </div>
+            <!--end xs menu-->
         </div>
     </div>
 </section>
