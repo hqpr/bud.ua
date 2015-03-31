@@ -874,7 +874,7 @@ a {
   font: normal 37px/37px HeliosCondCBold;
   text-transform: uppercase;
   padding-left: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   .mood-block {
     display: none;
@@ -1181,6 +1181,9 @@ a {
   }
   .sm-mood {
     font-size: 30px;
+    margin-bottom: 40px;
+    left: -10px;
+    padding-top: 50px;
   }
   .page-title h1 {
     font-size: 30px;
@@ -1235,6 +1238,9 @@ a {
 
   .sm-mood {
     font-size: 27px;
+    margin-top: 20px;
+    width: 100%;
+    padding-top: 0;
   }
 
   .top-menu {
@@ -1256,9 +1262,10 @@ a {
   }
   .sm-mood .rect h1 {
     font-weight: normal;
-  }
-  .sm-mood .rect {
-//    margin-left: -4px;
+    position: absolute;
+    margin-top: 45px;
+    left: 15%;
+    bottom: 10px;
   }
 
 
@@ -1364,17 +1371,6 @@ a {
     }
   }
 
-  .sm-mood {
-    .rect {
-      h1 {
-        position: absolute;
-        margin-top: 45px;
-        left: 15%;
-        bottom: 10px;
-      }
-    }
-  }
-
   .video-block h1 {
     font-size: 30px;
     line-height: 0;
@@ -1394,6 +1390,7 @@ a {
   }
   .bud-events .bud-events-text .be-date {
     font-size: 12px;
+    margin-top: 0;
   }
 
   .event-single {
@@ -1508,6 +1505,9 @@ a {
     margin-bottom: 30px;
   }
   /* events */
+  .bud-events {
+    height: 200px;
+  }
   .bud-events .bud-events-text .be-title {
     font-size: 26px;
     margin-bottom: 10px;
@@ -1515,6 +1515,9 @@ a {
   }
   .event-single {
     letter-spacing: 1px;
+  }
+  .bud-events .bud-events-text .be-date {
+    margin-top: 0;
   }
 
 }
@@ -1567,4 +1570,64 @@ a {
   .video-block .video-block-item {
     margin-bottom: 40px;
   }
+
+.events-header {
+  font: normal 26px/26px HeliosCondC;
+  text-transform: uppercase;
+}
+
+.bud-events {
+  img {
+    width: 100%;
+  }
+  padding-bottom: 30px;
+  height: 300px;
+  border-bottom: 1px solid #c64457;
+  margin-top: 30px;
+  .bud-events-text {
+    .be-date {
+      color: #a1a1a1;
+      font: normal 14px/14px HeliosCondC;
+      text-transform: uppercase;
+    }
+    .be-title {
+      font: normal 30px/30px HeliosCondC;
+      text-transform: uppercase;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      a{
+        color: @white;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    .be-news {
+      font: normal 18px/18px HeliosCondC;
+      .be-news-big {
+        font-size: 26px;
+        line-height: 26px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.single-event {
+  border: 0;
+  img {
+    width: 100%;
+  }
+}
+.event-single-date {
+  color: #cccccc;
+  font: normal 18px/18px HeliosCondC;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.event-single {
+  font: bold 42px/42px HeliosCondC;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
 }
